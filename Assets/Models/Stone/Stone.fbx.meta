@@ -39,17 +39,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Stone_02
-    second: {fileID: 2100000, guid: c31442a0c2e77ae4597797b99a7579d8, type: 2}
+    second: {fileID: 2100000, guid: 9157e98bd4928254fbc5f85a7fc785ee, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Stone_03
-    second: {fileID: 2100000, guid: fc269c02d57da574f8e317566795e113, type: 2}
+    second: {fileID: 2100000, guid: bb3ca38afe1164640bec33038ef9ba45, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Stone_04
-    second: {fileID: 2100000, guid: 39f085762b24f1c49b15575707454709, type: 2}
+    second: {fileID: 2100000, guid: 4ea011d3445d6e34fb9c68f289d9ce4e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -80,7 +80,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.5
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1

@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Lamp
+  m_Name: Stone_04
   m_Shader: {fileID: 47, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP _SPECGLOSSMAP
-  m_LightmapFlags: 2
+  m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP _SPECGLOSSMAP
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: d0d2f691157d6d447a49ccef8f3dbe88, type: 3}
+        m_Texture: {fileID: 2800000, guid: ae859dc2a52e56d4583402a20b1f9d54, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -36,15 +36,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 1790debae68b04e4db3ea38516dcb154, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: aa4692125b95d444396d0292fcafb61e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9ee019b1c3ff51140a99a78eaf5ff3c1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: b89538e3b87b6a049b30f1c2116ac9c1, type: 3}
+        m_Texture: {fileID: 2800000, guid: f2cea87e7a5781c4e8193b69bd20f2d2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
-        m_Texture: {fileID: 2800000, guid: 010f6bf4f6f36114b83e2d1436d46e04, type: 3}
+        m_Texture: {fileID: 2800000, guid: c4774dec68f8d624985697e719e725f3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -77,5 +77,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 0.94832873, b: 0, a: 0.19999999}
-    - _EmissionColor: {r: 1024, g: 907.5451, b: 0, a: 1}
+    - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 0.19999999}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}

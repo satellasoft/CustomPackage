@@ -48,15 +48,11 @@ public class PlayerController : MonoBehaviour
 		if (this.vertical != 0)
 		{
 			Vector3 fwd = Camera.main.transform.forward;
-			print(fwd);
 			fwd.y = 0;
 			this.transform.rotation = Quaternion.Lerp(this.transform.rotation, Quaternion.LookRotation(fwd.normalized), rotateSpeed * Time.deltaTime);
-
-			//this.transform.Rotate(new Vector3(0, (Input.GetAxis("Mouse X") * rotateSpeed) * Time.deltaTime, 0));
 		}
 
 		if (!this.characterController.isGrounded)
 			this.characterController.Move(new Vector3(0, -1, 0));
 	}
-
 }
