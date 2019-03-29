@@ -511,7 +511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4b138d405d09b2469b8d4b1f840ea59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  durantionSeconds: 10
+  durantionSeconds: 300
   enableBattery: 1
   startOn: 1
   onKey: 102

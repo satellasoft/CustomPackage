@@ -45,10 +45,12 @@ public class Flashlight : MonoBehaviour
 	/// </summary>
 	void Update()
 	{
-		if (this.enableBattery && this.on)
+		
+		
+		if (this.enableBattery && this.on && this.currentTime >= 0)
 		{
-			if (this.currentTime >= 0)
-				this.currentTime -= (1 * Time.deltaTime);
+			print(this.currentTime);
+			this.currentTime -= (1 * Time.deltaTime);
 		}
 
 		if (Input.GetKeyDown(this.onKey))
