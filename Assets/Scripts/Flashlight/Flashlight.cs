@@ -38,6 +38,8 @@ public class Flashlight : MonoBehaviour
 		this.currentTime = this.durantionSeconds;
 		this.light.color = this.lightColor;
 		this.light.intensity = this.intensityMultiply;
+
+		EnableFlashlight();
 	}
 
 	/// <summary>
