@@ -51,7 +51,6 @@ public class Flashlight : MonoBehaviour
 		
 		if (this.enableBattery && this.on && this.currentTime >= 0)
 		{
-			print(this.currentTime);
 			this.currentTime -= (1 * Time.deltaTime);
 		}
 
